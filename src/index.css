@@ -1,0 +1,38 @@
+@import 'antd/dist/antd.css';
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300;400;500;600;700;800&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    font-size: 1.6rem;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.wrapper {
+    padding: 36px;
+}
+
+/* Custom styles of antd */
+
+.ant-collapse > .ant-collapse-item > .ant-collapse-header {
+    padding: 16px 0 0 12px;
+    color: #fff;
+}
+
+.ant-collapse-content {
+    padding-left: 22px;
+}
+
+a.ant-typography {
+    color: #fff;
+    display: block;
+    margin-bottom: 8px;
+}
